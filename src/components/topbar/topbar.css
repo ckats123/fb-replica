@@ -1,0 +1,56 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  /* container sticks to top 0 of the page( position and top) ; */
+}
+
+
+/* FLEX 
+
+container is divided into 12 parts and topbarLeft takes 3 parts, topbarCenter takes 5 parts and topbarRight takes 4 parts; via flex property. */
+
+.topbarLeft {
+  flex: 3;
+ 
+}
+.logo{
+font-size: 24px;
+margin-left: 20px;
+font-weight: bold;
+color: white;
+cursor: pointer;
+}
+
+.topbarCenter {
+  flex: 5;
+ 
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.topbarRight {
+  flex: 4;
+  
+}
+
+
+.topbarImg {
+  width: 32px;
+  height: 32px;
+
+ 
+}
