@@ -14,7 +14,7 @@ export default function Topbar() {
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
-          <SearchIcon />
+          <SearchIcon className="searchIcon" />
           <input
             placeholder="Search Facebook Replica"
             className="searchInput"
