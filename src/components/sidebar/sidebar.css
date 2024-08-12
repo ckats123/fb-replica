@@ -16,6 +16,10 @@ The height of the element is set to the total height of the viewport (100vh) min
   /* overflow-y: 
   This property sets what to do with content that overflows the top and bottom edges of an element's box.
 scroll: This value ensures that a vertical scrollbar is always visible, regardless of whether the content overflows or not. The scrollbar will be enabled even if all the content fits within the element's box. */
+  position: sticky;
+  /* position: sticky; 
+  This value is used to make an element stick to a specific position on the page. It behaves like a relatively positioned element until it reaches a specified point and then acts like a fixed positioned element. */
+  top: 50px;
 }
 
 /* Customizing the entire scrollbar */
@@ -30,9 +34,12 @@ scroll: This value ensures that a vertical scrollbar is always visible, regardle
 
 /* Customizing the scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(179, 179, 179); /* Set the background color of the scrollbar thumb */
+  background-color: rgb(
+    179,
+    179,
+    179
+  ); /* Set the background color of the scrollbar thumb */
 }
-
 
 .sidebarWrapper {
   padding: 20px;
@@ -76,16 +83,4 @@ The space to the left and right of the element is 0. */
   list-style: none;
 }
 
-.sidebarFriend {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-}
 
-.sidebarFriendImg {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 10px;
-}
