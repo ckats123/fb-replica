@@ -1,3 +1,22 @@
+This React.js project is a direct replica of Facebook. Directly connect with your friends, family, and other people you know and keep up-to-date with current trends and news. Share what's on your mind and upload photos, videos, and send messages to friends. 
+
+# Features
+- Login/Register Page
+- Homepage
+- Timeline 
+- More recent features coming soon! 
+
+# Screenshots
+**Registration**
+![alt text](public/assets/screenshots/Register.png)
+**Login**
+![alt text](public/assets/screenshots/Login.png)
+**Profile**
+![alt text](public/assets/screenshots/ProfilePage.png)
+**Homepage**
+![alt text](public/assets/screenshots/Homepage.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
