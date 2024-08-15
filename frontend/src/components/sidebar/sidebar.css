@@ -1,0 +1,86 @@
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  /* calc(): 
+  This is a CSS function that allows you to perform calculations to determine CSS property values. It can handle basic arithmetic operations such as addition (+), subtraction (-), multiplication (*), and division (/).
+
+100vh: The vh unit stands for "viewport height". 100vh is equal to 100% of the height of the viewport (the browser window).
+
+50px: This is a fixed value of 50 pixels.
+
+Combined Calculation
+calc(100vh - 50px) means:
+
+The height of the element is set to the total height of the viewport (100vh) minus 50 pixels. */
+  overflow-y: scroll;
+  /* overflow-y: 
+  This property sets what to do with content that overflows the top and bottom edges of an element's box.
+scroll: This value ensures that a vertical scrollbar is always visible, regardless of whether the content overflows or not. The scrollbar will be enabled even if all the content fits within the element's box. */
+  position: sticky;
+  /* position: sticky; 
+  This value is used to make an element stick to a specific position on the page. It behaves like a relatively positioned element until it reaches a specified point and then acts like a fixed positioned element. */
+  top: 50px;
+}
+
+/* Customizing the entire scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+}
+
+/* Customizing the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the background color of the track */
+}
+
+/* Customizing the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(
+    179,
+    179,
+    179
+  ); /* Set the background color of the scrollbar thumb */
+}
+
+.sidebarWrapper {
+  padding: 20px;
+}
+
+/* list-style none will remove the bullet points from the list items. */
+.sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebarIcon {
+  margin-right: 15px;
+}
+
+.sidebarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.sidebarHr {
+  margin: 20px 0;
+  /* The space above the element is 20px.
+The space below the element is 20px.
+The space to the left and right of the element is 0. */
+}
+
+.sidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
