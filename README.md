@@ -10,16 +10,16 @@ This React.js project is a direct replica of Facebook. Directly connect with you
 # Screenshots
 
 **Registration**
-![alt text](public/assets/screenshots/Register.png)
+![alt text](frontend/public/assets/screenshots/Register.png)
 
 **Login**
-![alt text](public/assets/screenshots/Login.png)
+![alt text](frontend/public/assets/screenshots/Login.png)
 
 **Profile**
-![alt text](public/assets/screenshots/ProfilePage.png)
+![alt text](frontend/public/assets/screenshots/ProfilePage.png)
 
 **Homepage**
-![alt text](public/assets/screenshots/Homepage.png)
+![alt text](frontend/public/assets/screenshots/Homepage.png)
 
 # Getting Started with Create React App
 
