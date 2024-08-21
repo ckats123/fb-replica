@@ -5,7 +5,6 @@ const dotenv = require("dotenv");
 const helmet = require("helmet");
 const morgan = require("morgan");
 
-
 dotenv.config();
 
 async function connectDB() {
@@ -21,6 +20,12 @@ async function connectDB() {
 }
 
 connectDB();
+
+// Middleware
+app.use(express.json());
+app.use(helmet());
+app.use(morgan("common"));
+
 
 
 // Start server
